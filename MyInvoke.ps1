@@ -14,4 +14,4 @@ function invoke-UdfPipeProcess([Parameter(ValueFromPipeline=$true)]$myPipe="defa
 }
 
 Set-Location ($env:HOMEDRIVE + $env:HOMEPATH + "\Documents\")
-Get-ChildItem -Recurse| Invoke-UdfPipeProcess
+Get-ChildItem | Invoke-UdfPipeProcess
