@@ -13,5 +13,7 @@ function invoke-UdfPipeProcess([Parameter(ValueFromPipeline=$true)]$myPipe="defa
     }
 }
 
+
+#In second try
 Set-Location ($env:HOMEDRIVE + $env:HOMEPATH + "\Documents\")
 Get-ChildItem | Invoke-UdfPipeProcess
