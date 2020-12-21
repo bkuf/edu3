@@ -9,7 +9,7 @@ function invoke-UdfPipeProcess([Parameter(ValueFromPipeline=$true)]$myPipe="defa
     }
     end
     {
-        Write-Host "Nu avslutar vi"
+        Write-Host "Nu avslutar vi."
     }
 }
 
